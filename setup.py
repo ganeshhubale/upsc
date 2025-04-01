@@ -17,7 +17,7 @@ setup(
     python_requires='>=3.6',
     entry_points={
         'console_scripts': [
-            'exam-score-calculator=upsc.calculator:main',
+            'upsc=upsc.calculator:main',
         ],
     },
 )
